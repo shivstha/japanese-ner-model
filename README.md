@@ -202,8 +202,8 @@ Search Result -> ご契約のお車と同一の用途、車種、車名、型式
 | Token   | NER   |
 +=========+=======+
 +---------+-------+
-'''
+```
 
 ## Comaprsion of spaCy with other libraries
 
-![image](./images/ntlk-vs-spacy.png)
+![image](images/ntlk-vs-spacy.png)
