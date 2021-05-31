@@ -11,12 +11,20 @@ Notable NER platforms include:
 - OpenNLP includes rule-based and statistical named-entity recognition.
 
 
+## About spaCy Natural Language Processing
+spaCy is an open-source software library for advanced natural language processing, written in the programming languages Python and Cython.
 
-* spaCy features an extremely fast statistical entity recognition system, that assigns labels to contiguous spans of tokens. The default trained pipelines can indentify a variety of named and numeric entities, including companies, locations, organizations and products. You can add arbitrary classes to the entity recognition system, and update the model with new examples.
+spaCy features an extremely fast statistical entity recognition system, that assigns labels to contiguous spans of tokens. The default trained pipelines can indentify a variety of named and numeric entities, including companies, locations, organizations and products. You can add arbitrary classes to the entity recognition system, and update the model with new examples.
 
-* A named entity is a “real-world object” that’s assigned a name – for example, a person, a country, a product or a book title. spaCy can recognize various types of named entities in a document, by asking the model for a prediction. Because models are statistical and strongly depend on the examples they were trained on, this doesn’t always work perfectly and might need some tuning later, depending on your use case.
+spaCy provides different language supported models such small, medium, and large trained models that we can use to find named entity from the text.
 
-*A named entity is a real object that you can refer to by a proper
-name. It can be a person, organization, location, or other entity.
-Named entities are important in NLP because they reveal the
-place or organization the user is talking about
+We can also customized the model according to our data to grasp the maximum accuracy by training the model which is the wonderful feature supported by spaCy.
+
+## What we have done in this project?
+
+- Use of elasticsearch to index data for faster retrieval of information
+- Pandas library of Python for performing data wrangling of provided json, csv or any other supported files.
+- Use of spaCy library to detect named entity recognition of data fetch from search query in elasticsearch.
+- Finally save the output file of obtained data in the text format. 
+
+
