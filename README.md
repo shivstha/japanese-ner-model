@@ -219,3 +219,5 @@ Doc2vec is an NLP tool for representing documents as a vector and is a generaliz
 SpaCy is also useful in deep text analytics and sentiment analysis.
 
 ![image](images/ntlk-vs-spacy.png)
+
+![image](images/where-to-use.jpg)
