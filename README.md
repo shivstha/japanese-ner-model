@@ -1,4 +1,4 @@
-# japanese-ner-model
+# Named Entity Recognition Using Python spaCy of Elasticsearch Index Data
 
 * spaCy features an extremely fast statistical entity recognition system, that assigns labels to contiguous spans of tokens. The default trained pipelines can indentify a variety of named and numeric entities, including companies, locations, organizations and products. You can add arbitrary classes to the entity recognition system, and update the model with new examples.
 
