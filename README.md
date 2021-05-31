@@ -37,10 +37,20 @@ pip install -r requirements.txt
 Note: Make sure to run elasticsearch in your pc
 
 ### To dump json file into elasticsearch
+Syntax:
+```python
+python dump_file_elk.py <index-name> <file-path>
+```
+
 ```python
 python dump_file_elk.py "japan-ner" "data.json"
 ```
 ### To perform search query in elasticsearch and saving data of ner in text format
+Syntax:
+```python
+python main.py <search-phrase> <dumped-index-name> <output filename>
+```
+
 ```python
 python main.py "自動車保険" "japan-ner" "file-1.txt" 
 ```
