@@ -1,4 +1,16 @@
 # Named Entity Recognition Using Python spaCy of Elasticsearch Index Data
+## What is Named Entity Recognition?
+
+Named-entity recognition (NER) (also known as (named) entity identification, entity chunking, and entity extraction) is a subtask of information extraction that seeks to locate and classify named entities mentioned in unstructured text into pre-defined categories such as person names, organizations, locations, medical codes, time expressions, quantities, monetary values, percentages, etc.
+
+## Named-entity recognition platforms
+Notable NER platforms include:
+
+- SpaCy features fast statistical NER as well as an open-source named-entity visualizer.
+- GATE supports NER across many languages and domains out of the box, usable via a graphical interface and a Java API.
+- OpenNLP includes rule-based and statistical named-entity recognition.
+
+
 
 * spaCy features an extremely fast statistical entity recognition system, that assigns labels to contiguous spans of tokens. The default trained pipelines can indentify a variety of named and numeric entities, including companies, locations, organizations and products. You can add arbitrary classes to the entity recognition system, and update the model with new examples.
 
