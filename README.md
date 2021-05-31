@@ -27,4 +27,23 @@ We can also customized the model according to our data to grasp the maximum accu
 - Use of spaCy library to detect named entity recognition of data fetch from search query in elasticsearch.
 - Finally save the output file of obtained data in the text format. 
 
+## To run this project follow these steps:
+```javascript
+git clone https://github.com/shivstha/japanese-ner-model.git
+```
+```python
+pip install -r requirements.txt
+```
+Note: Make sure to run elasticsearch in your pc
+
+### To dump json file into elasticsearch
+```python
+python dump_file_elk.py "japan-ner" "data.json"
+```
+### To perform search query in elasticsearch and saving data of ner in text format
+```python
+python main.py "自動車保険" "japan-ner" "file-1.txt" 
+```
+
+
 
