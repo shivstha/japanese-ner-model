@@ -206,4 +206,12 @@ Search Result -> ご契約のお車と同一の用途、車種、車名、型式
 
 ## Comaprsion of spaCy with other libraries
 
+SpaCy is the next step of the NLTK evolution. NLTK is clumsy and slow when it comes to more complex business applications. At the same time, SpaCy provides users with a smoother, faster, and efficient experience.
+
+The main advantage of SpaCy over the other NLP tools is its API. Unlike Stanford CoreNLP and Apache OpenNLP, SpaCy got all functions combined at once, so we don’t need to select modules on our own. We create our frameworks from ready building blocks.
+
+Another SpaCy advantage is word vector usage. Unlike OpenNLP and CoreNLP, SpaCy works with word2vec and doc2vec.
+
+SpaCy is also useful in deep text analytics and sentiment analysis.
+
 ![image](images/ntlk-vs-spacy.png)
